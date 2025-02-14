@@ -13,8 +13,8 @@ __pycache__/
 # Ignore Streamlit cache files
 .streamlit/
 
-# Ignore trained models (optional, if stored remotely)
-models/*.pkl
+
+
 
 # Ignore generated images
 model_performance.png
