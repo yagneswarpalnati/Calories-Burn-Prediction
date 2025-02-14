@@ -13,8 +13,3 @@ __pycache__/
 # Ignore Streamlit cache files
 .streamlit/
 
-
-
-
-# Ignore generated images
-model_performance.png
