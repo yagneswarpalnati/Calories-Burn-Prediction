@@ -1,0 +1,20 @@
+# Ignore virtual environment
+.venv/
+venv/
+
+# Ignore dataset backup files (if needed)
+*.csv~
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Streamlit cache files
+.streamlit/
+
+# Ignore trained models (optional, if stored remotely)
+models/*.pkl
+
+# Ignore generated images
+model_performance.png
