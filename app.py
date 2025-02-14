@@ -5,9 +5,9 @@ import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-model = joblib.load("best_model.pkl")
+model = joblib.load("models/best_model.pkl")
 
-X_train = pd.read_csv("X_train.csv")
+X_train = pd.read_csv("data/X_train.csv")
 
 st.title("Calories Burn Prediction - Machine Learning Approach")
 
@@ -43,7 +43,7 @@ if st.button("Predict Calories Burned"):
 st.subheader("📊 Calories Burn Pattern Analysis")
 
 
-df = pd.read_csv("X_train.csv")
+df = pd.read_csv("data/X_train.csv")
 
 
 st.write("### 🔍 Relationship Between Features & Calories Burned")
